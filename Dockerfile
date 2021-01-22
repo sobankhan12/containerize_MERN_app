@@ -1,8 +1,8 @@
-FROM node:8.12.0
+FROM node
 
 # Copy Workdir contents
-ADD Basic-MERN-Stack-App /Basic-MERN-Stack-App/
-WORKDIR /Basic-MERN-Stack-App/
+ADD mern-marketplace /mern-marketplace/
+WORKDIR /mern-marketplace/
 
 # Create a Build
 RUN npm install
